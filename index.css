@@ -162,9 +162,14 @@ body{
         display: flex;
         color: white;
         position: relative;
-        
+        justify-content: space-evenly;
        
       }
-      #contact p{
-          margin-bottom: 50px;
+      .homy{
+        max-width:1100px ;
+        margin-left: 200px ;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 160px;
       }
+     s
